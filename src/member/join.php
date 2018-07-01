@@ -1,8 +1,11 @@
-<form action="" method="post">
-	<input type="hidden" name="action" value="join">
-	<input type="text" name="id" placeholder="아이디" require autofocus>
-	<input type="password" name="pw" require placeholder="비밀번호">
-	<input type="password" name="pw_re" require placeholder="비밀번호 확인">
-	<input type="name" name="name" require placeholder="이름">
-	<button type="submit">회원가입</button>
-</form>
+<?php memberChk(); ?>
+<fieldset>
+	<h2 class="title">회원가입 페이지</h2>
+	<form action="" method="post" class="form">
+		<input type="hidden" name="action" value="join">
+		<input type="text" name="id" class="form-controll" placeholder="아이디" required>
+		<input type="password" name="pw" class="form-controll" placeholder="패스워드" required>
+		<input type="text" name="name" class="form-controll" placeholder="이름" required>
+		<button type="submit" class="btn">회원가입</button>
+	</form>
+</fieldset>

@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+*{
+	margin:0;
+	padding:0;
+	color:inherit;
+	outline:none;
+	text-decoration:none;
+	list-style:none;
+}
+h2 {
+	text-align: center;
+	margin:50px;
+}
+fieldset {
+	margin: 0 auto;
+	width: 400px;
+	height: 500px;
+}
+button {
+	width: 100px;
+	height: 30px;
+	color:#000;
+	background: #fff;
+	border: 1px solid #000;
+	transition: .5s;
+
+}
+button:hover {
+	color:#fff;
+	background: #000;
+}
+.form-controll {
+	border: none;
+	width: 180px;
+	height: 30px;
+	background: #eee;
+	font-size: 14px;
+	margin-left: 20px;
+	transition: .5s;
+}
+input.form-controll:focus{
+	color:#fff;
+	background: #000;	
+}
